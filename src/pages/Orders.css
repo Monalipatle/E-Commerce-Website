@@ -1,0 +1,99 @@
+.orders-container {
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 90vh;
+}
+
+.orders-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.no-orders {
+  text-align: center;
+  color: #7f8c8d;
+}
+
+/* Card */
+.order-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.order-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Items */
+.order-items {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.order-item {
+  display: flex;
+  gap: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.order-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #ddd;
+  z-index: 0;
+}
+
+/* Steps */
+.step {
+  position: relative;
+  background: #ddd;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  z-index: 1;
+  color: #555;
+}
+
+/* Active step */
+.step.active {
+  background: #27ae60;
+  color: white;
+}

@@ -1,0 +1,75 @@
+/* Container */
+.login-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+}
+
+/* Card */
+.login-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.login-card h2 {
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+/* Inputs & Select */
+.login-card input,
+.login-card select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+.login-card input:focus,
+.login-card select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Button */
+.login-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.login-card button:hover {
+  background: #2980b9;
+}
+
+/* Active click */
+.login-card button:active {
+  transform: scale(0.98);
+}

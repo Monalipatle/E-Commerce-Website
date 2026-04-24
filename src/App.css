@@ -1,0 +1,42 @@
+.navbar {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+}
+
+.navbar.light {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-box {
+  padding: 5px;
+  width: 200px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
